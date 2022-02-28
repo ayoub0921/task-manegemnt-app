@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO_APP_JS</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <header class="header-section">
+        <div class="header-content">
+            <strong>gestionaire des tâches</strong>
+            <div class="dark_mode">
+                <button class="btn_dark">dark / light mode</button>
+            </div>
+        </div>
+    </header>
+    <section class="wrapper">
+        <div class="task-input">
+            <img draggable="false" src="https://img.icons8.com/external-febrian-hidayat-flat-febrian-hidayat/64/000000/external-menu-bar-ui-essential-febrian-hidayat-flat-febrian-hidayat.png"/>
+            <!-- <img src="https://img.icons8.com/plasticine/100/000000/top-menu.png"/> -->
+            <!-- <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-rounded.png"/> -->
+            <input type="text" placeholder="Ajouter Nouveau tâche">
+        </div>
+        <div class="controls">
+            <div class="filtrs">
+                <span id="all" class="active">Tous</span>
+                <span id="pending">En attente</span>
+                <span id="completed">Complété</span>
+            </div>
+            <button id="clear-btn" class="clear-btn">clear all</div>
+        </div>
+        <ul class="task-box">  
+        </ul>
+        <span id="clear-data"></span>
+    </section> 
+        
+    
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>
