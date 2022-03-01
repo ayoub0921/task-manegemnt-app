@@ -54,7 +54,7 @@ function showTodo(filter){
         })
     }
 
-    tasksBox.innerHTML = li || `<span class="aucun"> aucun tache ici</span>`
+    tasksBox.innerHTML = li || `<span class="aucun"> aucun tâche ici</span>`
 
 }
 
@@ -143,7 +143,7 @@ inputTask.addEventListener("keyup",e=>{
             Toastify({
                 text: "Votre tâche est ajoutée avec succès",
                 close: true,
-                gravity: "bottom", // `top` or `bottom`
+                gravity: "bottom", 
                 position: "left",
                 style: {
                 background: "linear-gradient(to right, #20bf6b, #00d2d3)",
@@ -182,9 +182,11 @@ inputTask.addEventListener("keyup",e=>{
 
 // DARK MODE SECTION
 
+
+
 let btnDark = document.querySelector('.btn_dark')
 btnDark.addEventListener('click',()=>{
-    document.querySelector('.wrapper').classList.toggle('dark-color')
+   document.querySelector('.wrapper').classList.toggle('dark-color');
     
 })
 
