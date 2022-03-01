@@ -10,6 +10,12 @@
 }
 
 
+
+*:focus{
+    outline: none;
+}
+
+
 :root{
     --blue-color:#3c87ff;
     --white-color:#fff;
@@ -87,9 +93,10 @@ body{
     cursor: pointer;
     text-transform: capitalize;
     border-radius: 9999px;
-    background-color: #0be881;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(245,246,250,1) 50%, rgba(72,84,96,1) 50%);
     border: none;
-    color: var(--white-color);
+    color: var(--blue-color);
 }
 
 
