@@ -68,7 +68,6 @@ function updateStatue(selectedTask) {
     if(selectedTask.checked){
         todos[selectedTask.id].status = "completed"
         taskName.classList.add('checked')
-        swal("Bon travail!", "votre tâche est accomplie avec succès", "success");
     }else{
         todos[selectedTask.id].status = "pending"
         taskName.classList.remove('checked')
