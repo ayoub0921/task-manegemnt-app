@@ -285,5 +285,13 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(245,246,250,1) 
         width: 99%;
     }
 
+
+    .controls span{
+        margin: 0 2px;
+        text-transform: capitalize;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
 }
 
